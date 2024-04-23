@@ -1,0 +1,94 @@
+[
+    {
+        "_id": "1",
+        "img": "https://i.ibb.co/8rD4JD6/9.jpg",
+      "category": "Office Cleaning",
+      "service_name": "Commercial Office Cleaning",
+      "description": "Our Commercial Office Cleaning service ensures a pristine and professional workspace. Ideal for offices, retail spaces, and businesses of all sizes.",
+      "service_details": [
+        "Dusting and wiping of desks and surfaces",
+        "Vacuuming and mopping of floors",
+        "Trash removal and recycling",
+        "Sanitizing restrooms and common areas",
+        "Interior window cleaning",
+        "Floor buffing and polishing"
+      ],
+      "service_duration": "2-4 hours (depending on office size)"
+    },
+    {
+        "_id": "2",
+        "img": "https://i.ibb.co/Vp9sYp8/7.jpg",
+      "category": "Retail Cleaning",
+      "service_name": "Retail Store Cleaning",
+      "description": "Keep your retail space inviting and clean with our Retail Store Cleaning service. Impress customers with a sparkling shopping environment.",
+      "service_details": [
+        "Dusting and wiping of shelves and displays",
+        "Floor sweeping and mopping",
+        "Cleaning of glass doors and windows",
+        "Restroom cleaning and sanitization",
+        "Trash removal and disposal"
+      ],
+      "service_duration": "1-2 hours (depending on store size)"
+    },
+    {
+        "_id": "3",
+        "img": "https://i.ibb.co/hsdyPBZ/3.jpg",
+      "category": "Restaurant Cleaning",
+      "service_name": "Restaurant and Cafe Cleaning",
+      "description": "Maintain a hygienic and inviting dining experience with our Restaurant and Cafe Cleaning service. Let us handle the cleaning while you focus on your customers.",
+      "service_details": [
+        "Kitchen cleaning (counters, equipment, floors)",
+        "Dining area wiping and sanitization",
+        "Bathroom cleaning and restocking",
+        "Table and chair wiping",
+        "Floor sweeping and mopping"
+      ],
+      "service_duration": "2-3 hours (depending on restaurant size)"
+    },
+    {
+        "_id": "4",
+        "img": "https://i.ibb.co/vVLB8hX/4.jpg",
+      "category": "Industrial Cleaning",
+      "service_name": "Warehouse Cleaning",
+      "description": "Our Warehouse Cleaning service ensures a safe and organized workspace. Keep your warehouse clean and compliant with industry standards.",
+      "service_details": [
+        "Sweeping and mopping of warehouse floors",
+        "Dusting of shelves and storage areas",
+        "Trash and debris removal",
+        "Equipment cleaning",
+        "Restroom and breakroom cleaning"
+      ],
+      "service_duration": "3-5 hours (depending on warehouse size)"
+    },
+    {
+        "_id": "5",
+        "img": "https://i.ibb.co/brbrB09/5.jpg",
+      "category": "Healthcare Facility Cleaning",
+      "service_name": "Medical Facility Cleaning",
+      "description": "Maintain a sterile and sanitized medical environment with our Medical Facility Cleaning service. We adhere to strict cleanliness standards for healthcare facilities.",
+      "service_details": [
+        "Disinfection of waiting areas and reception desks",
+        "Cleaning and sanitization of examination rooms",
+        "Trash removal and biohazard disposal",
+        "Floor cleaning and disinfection",
+        "Surface wiping and sanitization"
+      ],
+      "service_duration": "2-4 hours (depending on facility size)"
+    },
+    {
+        "_id": "6",
+        "img": "https://i.ibb.co/74TmM4Q/6.jpg",
+      "category": "Education Cleaning",
+      "service_name": "School and Educational Facility Cleaning",
+      "description": "Create a healthy learning environment with our School and Educational Facility Cleaning service. We understand the importance of clean and safe schools.",
+      "service_details": [
+        "Classroom cleaning and desk wiping",
+        "Floor sweeping and mopping",
+        "Restroom cleaning and sanitization",
+        "Gymnasium and sports area cleaning",
+        "Trash and recycling removal"
+      ],
+      "service_duration": "3-6 hours (depending on facility size)"
+    }
+  ]
+  
