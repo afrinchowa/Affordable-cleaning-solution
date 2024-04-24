@@ -6,6 +6,7 @@ import Gallery from "../Pages/Gallery/Gallery";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import Blogs from "../Pages/Blogs/Blogs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
+import AppointForm from "../Pages/Services/AppointForm/AppointForm";
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <ContactUs></ContactUs>
+            },
+            {
+                path: '/appointmentForm',
+                element: <AppointForm></AppointForm>
             },
         ]
     }

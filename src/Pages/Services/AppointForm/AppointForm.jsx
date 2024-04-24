@@ -1,75 +1,115 @@
-
-
 const AppointForm = () => {
-    return (
-        <section className="p-6 dark:bg-gray-100 dark:text-gray-900">
-        <form noValidate="" action="" className="container flex flex-col mx-auto space-y-12">
-            <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-50">
-                <div className="space-y-2 col-span-full lg:col-span-1">
-                    <p className="font-medium">Apoinment Inormation</p>
-                    <p className="text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci fuga autem eum!</p>
-                </div>
-                <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
-                    <div className="col-span-full sm:col-span-3">
-                        <label htmlFor="firstname" className="text-sm">First name</label>
-                        <input id="firstname" type="text" placeholder="First name" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full sm:col-span-3">
-                        <label htmlFor="lastname" className="text-sm">Last name</label>
-                        <input id="lastname" type="text" placeholder="Last name" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full sm:col-span-3">
-                        <label htmlFor="email" className="text-sm">Email</label>
-                        <input id="email" type="email" placeholder="Email" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full">
-                        <label htmlFor="address" className="text-sm">Address</label>
-                        <input id="address" type="text" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full sm:col-span-2">
-                        <label htmlFor="city" className="text-sm">City</label>
-                        <input id="city" type="text" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full sm:col-span-2">
-                        <label htmlFor="state" className="text-sm">State / Province</label>
-                        <input id="state" type="text" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full sm:col-span-2">
-                        <label htmlFor="zip" className="text-sm">ZIP / Postal</label>
-                        <input id="zip" type="text" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                </div>
-            </fieldset>
-            <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-50">
-                <div className="space-y-2 col-span-full lg:col-span-1">
-                    <p className="font-medium">Profile</p>
-                    <p className="text-xs">Adipisci fuga autem eum!</p>
-                </div>
-                <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
-                    <div className="col-span-full sm:col-span-3">
-                        <label htmlFor="username" className="text-sm">Username</label>
-                        <input id="username" type="text" placeholder="Username" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full sm:col-span-3">
-                        <label htmlFor="website" className="text-sm">Website</label>
-                        <input id="website" type="text" placeholder="https://" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300" />
-                    </div>
-                    <div className="col-span-full">
-                        <label htmlFor="bio" className="text-sm">Bio</label>
-                        <textarea id="bio" placeholder="" className="w-full rounded-md focus:ring focus:ring-opacity-75 dark:text-gray-50 focus:dark:ring-violet-600 dark:border-gray-300"></textarea>
-                    </div>
-                    <div className="col-span-full">
-                        <label htmlFor="bio" className="text-sm">Photo</label>
-                        <div className="flex items-center space-x-2">
-                            <img src="https://source.unsplash.com/30x30/?random" alt="" className="w-10 h-10 dark:bg-gray-500 rounded-full dark:bg-gray-300" />
-                            <button type="button" className="px-4 py-2 border rounded-md dark:border-gray-800">Change</button>
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
-    </section>
-    );
+  return (
+    <div className="bg-[#BFDBF7] p-20 md:m-20">
+      <h2 className="text-3xl font-extrabold">Appointment</h2>
+      <form >
+        <div className="md:flex">
+          <label className="form-control md:w-1/2 ">
+            <div className="label">
+              <span className="label-text">First Name</span>
+            </div>
+            <label>
+              <input
+                name="name"
+                type="text"
+                placeholder="Name"
+                className="input input-bordered w-full "
+              />
+            </label>
+          </label>
+          <label className="form-control md:w-1/2 ml-4">
+            <div className="label">
+              <span className="label-text">Last Name</span>
+            </div>
+
+            <label>
+              <input
+                name="Last"
+                type="text"
+                placeholder="Last Name"
+                className="input input-bordered w-full"
+              />
+            </label>
+          </label>
+        </div>
+        <div className="md:flex">
+          <label className="form-control md:w-1/2 ">
+            <div className="label">
+              <span className="label-text">Service Name</span>
+            </div>
+            <label>
+              <input
+                name="Service Name"
+                type="text"
+                placeholder="Service Name"
+                className="input input-bordered w-full "
+              />
+            </label>
+          </label>
+          <label className="form-control md:w-1/2 ml-4">
+            <div className="label">
+              <span className="label-text">Company</span>
+            </div>
+
+            <label>
+              <input
+                name="Company"
+                type="text"
+                placeholder="Company"
+                className="input input-bordered w-full"
+              />
+            </label>
+          </label>
+          <label className="form-control md:w-1/2 ml-4">
+            <div className="label">
+              <span className="label-text">Email</span>
+            </div>
+
+            <label>
+              <input
+                name="Email"
+                type="email"
+                placeholder="Email"
+                className="input input-bordered w-full"
+              />
+            </label>
+          </label>
+        </div>
+        <div className="md:flex">
+          <label className="form-control md:w-1/2 ">
+            <div className="label">
+              <span className="label-text">Address</span>
+            </div>
+            <label>
+              <input
+                name="address"
+                type="text"
+                placeholder="Address"
+                className="input input-bordered w-full "
+              />
+            </label>
+          </label>
+          <label className="form-control md:w-1/2 ml-4">
+            <div className="label">
+              <span className="label-text">City</span>
+            </div>
+
+            <label>
+              <input
+                name="City"
+                type="text"
+                placeholder="City"
+                className="input input-bordered w-full"
+              />
+            </label>
+          </label>
+        </div>
+      
+      <br />
+        <input type="submit" className="btn btn-block" value="Submit" />
+      </form>
+    </div>
+  );
 };
 
 export default AppointForm;

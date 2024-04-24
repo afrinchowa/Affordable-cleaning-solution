@@ -1,5 +1,5 @@
 import SectionTitle from "../../../Componets/SectionTitle/SectionTitle";
-import img1 from "../../../assets/10.png";
+import img1 from "../../../assets/17.jpg";
 import { RiBriefcase2Fill } from "react-icons/ri";
 import { FaPuzzlePiece } from "react-icons/fa6";
 import { RiCustomerService2Fill } from "react-icons/ri";
@@ -13,9 +13,9 @@ const WhyChooseUs = () => {
         and Easier"
       ></SectionTitle>
 
-      <div className=" mx-auto p-5 bg-gray-800 text-gray-100">
+      <div className=" mx-auto p-5 bg-[#BFDBF7] text-gray-100">
         <div className="flex flex-col max-w-7xl mx-auto overflow-hidden rounded">
-          <img src={img1} alt="" className="w-full h-60 sm:h-96 bg-gray-500" />
+          <img src={img1} alt="" className="w- h-full sm:h-96 bg-gray-500" />
           <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-6xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-900">
             <div className="space-y-2">
               <div className="grid grid-cols-2 gap-10">
