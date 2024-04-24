@@ -1,40 +1,48 @@
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
 
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Banner = () => {
-    return (
-        <div>
-            <div className="carousel w-full">
-  <div id="slide1" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide2" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" className="btn btn-circle">❮</a> 
-      <a href="#slide3" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide3" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide2" className="btn btn-circle">❮</a> 
-      <a href="#slide4" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-</div>
-        </div>
-    );
+  return (
+
+<div className="max-w-screen-2xl">
+       <AutoplaySlider className="h-[600px] max-w-screen-2xl"
+      play={true}
+      cancelOnInteraction={false} // should stop playing on user interaction
+      interval={1500}
+      media={[
+    
+        {
+          source:
+            "https://i.ibb.co/SsshTjT/kyle-head-PW8-K-W-Kni0-unsplash.jpg",
+             text: "Slider 1",
+        },
+        {
+          source:
+            "https://i.ibb.co/KbdGJrR/louis-hansel-w-Xk-Gv-QJWI-Y-unsplash.jpg",
+        },
+        {
+          source:
+            "https://i.ibb.co/4WHB4Xr/edward-franklin-Nb-Q-M3-Cdzg-unsplash.jpg",
+        },
+        {
+          source:
+            "https://i.ibb.co/x6rwQL1/alexandru-bogdan-ghita-Ue-Ykq-Qh4-Po-I-unsplash.jpg",
+        },
+        {
+          source:
+            "https://i.ibb.co/wLYkfTr/lex-sirikiat-ymt-Ph-YNK49-A-unsplash.jpg",
+        },
+        {
+          source:
+            "https://i.ibb.co/jzKDcYX/volodymyr-proskurovskyi-Xh-S0-Ykp-QI2-M-unsplash.jpg",
+        },
+      ]}
+    />
+ </div>
+  );
 };
 
 export default Banner;
