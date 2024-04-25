@@ -7,6 +7,7 @@ import AboutUs from "../Pages/AboutUs/AboutUs";
 import Blogs from "../Pages/Blogs/Blogs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import AppointForm from "../Pages/Services/AppointForm/AppointForm";
+import SeeDetails from "../Componets/SeeDetails/SeeDetails";
 
 
 const router = createBrowserRouter([
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
                 path: '/appointmentForm',
                 element: <AppointForm></AppointForm>
             },
+            {
+                path: '/service/:id',
+                element: <SeeDetails></SeeDetails>,
+                loader:() => fetch('../services.json')
+            }
         ]
     }
 ]);
