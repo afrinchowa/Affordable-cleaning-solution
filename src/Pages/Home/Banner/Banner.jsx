@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <div className="max-w-screen-2xl">
       <AutoplaySlider
-        className="h-[600px] max-w-screen-2xl"
+        className="h-[600px] max-w-screen-2xl md:fixed"
         play={true} // Autoplay is set to true
         cancelOnInteraction={false} // Should stop playing on user interaction
         interval={3000} // Interval between slides in milliseconds
