@@ -1,8 +1,9 @@
 const AppointForm = () => {
   return (
-    <div className="bg-[#BFDBF7] p-20 md:m-20">
-      <h2 className="text-3xl font-extrabold">Appointment</h2>
-      <form >
+    <div className=" p-20 ">
+    <div className="bg-[#BFDBF7] p-20 m-20">
+    <h2 className="text-3xl font-extrabold">Appointment</h2>
+      <form className="">
         <div className="md:flex">
           <label className="form-control md:w-1/2 ">
             <div className="label">
@@ -108,6 +109,7 @@ const AppointForm = () => {
       <br />
         <input type="submit" className="btn btn-block" value="Submit" />
       </form>
+    </div>
     </div>
   );
 };
